@@ -26,7 +26,7 @@ composer install
 
 Rename file **[.env.example](https://github.com/HMsyah23/spk-moora-yuda/blob/main/.env.example)** menjadi **.env**
 
-Buat Database pada mysql dengan nama spk-electre-roy, Setelah itu import file [spk-electre-roy.sql](https://github.com/HMsyah23/spk-moora-yuda/blob/main/spk-electre-roy.sql) kedalaman database spk-moora-yuda, lalu ketikan perintah berikut pada console :
+Buat Database pada mysql dengan nama spk-electre-roy, Setelah itu import file [spk-electre-roy.sql](https://github.com/HMsyah23/spk-moora-yuda/blob/main/spk-electre-roy.sql) kedalaman database spk-electre-roy, lalu ketikan perintah berikut pada console :
 ```
 php artisan key:generate
 php artisan serve
